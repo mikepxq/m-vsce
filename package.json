@@ -1,0 +1,45 @@
+{
+  "name": "react-tsx-snippet", 
+  "version": "0.0.1", 
+  "description": "react with tsx snippets", 
+  "icon": "icons/logo.png", 
+  "publisher": "brendan-mike", 
+  "repository": { 
+    "type": "git", 
+    "url":"https://github.com/mikepxq/m-vsce.git" 
+  },
+  "galleryBanner": { 
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react","typescript-react","typescript","react-snippets","react-tsx-snippets","react hook","react^17.0.0"],  
+  "engines": { 
+    "vscode": "^1.52.0"
+  },
+  "author":{ 
+    "name": "brendan-mike(brendan-mike)",
+    "email": "1024694765@qq.com",
+    "url": ""
+  },
+  "categories": [ 
+    "Snippets",
+    "Other"
+  ],
+  "contributes":{ 
+    "snippets": [
+      {
+        "language": "react", 
+        "path":"./snippets/react.json"
+      }
+    
+    ]
+  },
+  "bugs": {  
+    "url": "https://github.com/mikepxq/m-vsce/issues"
+  },
+  "homepage": "https://github.com/mikepxq/m-vsce", 
+  "license": "" 
+}

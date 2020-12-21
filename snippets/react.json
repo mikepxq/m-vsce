@@ -1,0 +1,17 @@
+{
+
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "react fc",
+		"body": [
+			"import React,{FC,useEffect,useState} from\"react\";",
+			"const App$0:FC =(props)=>{",
+			"const [value,setValue]=useState(0)",
+			"useEffect(()=>{},[])",
+			"return (<div></div>)",
+			"}",
+			"export default App"
+		],
+		"description": "react fc"
+	}
+}
